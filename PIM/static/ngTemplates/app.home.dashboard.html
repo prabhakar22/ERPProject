@@ -1,176 +1,157 @@
 <div class="shaddowed card bg-white" style="min-height:93vh;position:relative;">
-
   <breadcrumb></breadcrumb>
-    <div class="container-fluid">
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="info-box bg-aqua">
-          <span class="info-box-icon info-box-faIcon"><i class="fa fa-link"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">Direct Messages</span>
-            <span class="info-box-number">163,921</span>
-            <div class="progress">
-              <div class="progress-bar" style="width: 40%"></div>
+  <div class="container-fluid" style="margin-top: -20px;" ng-controller="sidebar.chat">
+    <div class="row">
+      <div class="col-md-3" style="padding:0px;">
+        <div class="container-fluid"  style="background-color:#ffffff;padding-right:0px;">
+          <tabs-Strip tabs="tabs" active="data.activeTab"></tabs-Strip>
+          <div class="container-fluid" style="padding-left:0px;" ng-if="data.activeTab==0">
+            <div class="input-group" style="margin-top:10px;">
+              <input type="text" class="form-control" value="{{names[data.xInView].name}}">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+              </span>
             </div>
-            <span class="progress-description">
-              40% Increase in 30 Days
-            </span>
-          </div><!-- /.info-box-content -->
-        </div><!-- /.info-box -->
-      </div><!-- /.col -->
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="info-box bg-green">
-          <span class="info-box-icon info-box-faIcon"><i class="fa fa-thumbs-o-up"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">Likes</span>
-            <span class="info-box-number">41,410</span>
-            <div class="progress">
-              <div class="progress-bar" style="width: 70%"></div>
+            <div class="input-group" style="margin-top:10px;">
+              <input type="text" class="form-control" value="{{names[data.xInView].email}}">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+              </span>
             </div>
-            <span class="progress-description">
-              70% Increase in 30 Days
-            </span>
-          </div><!-- /.info-box-content -->
-        </div><!-- /.info-box -->
-      </div><!-- /.col -->
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="info-box bg-red">
-          <span class="info-box-icon info-box-faIcon"><i class="fa fa-music"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">Downloads</span>
-            <span class="info-box-number">114,381</span>
-            <div class="progress">
-              <div class="progress-bar" style="width: 70%"></div>
+            <div class="container-fluid" style="margin-top:10px;margin-bottom:20px;">
+              <div class="row">
+                <div class="col-md-7">
+                  <span>{{names[data.xInView].address}} </span>
+                </div>
+                <div class="col-md-3" style="padding-left:0px;">
+                  <span>{{names[data.xInView].location}} </span>
+                </div>
+              </div>
+              <div class="text-right">
+                <span>{{names[data.xInView].time}}</span>
+              </div>
             </div>
-            <span class="progress-description">
-              70% Increase in 30 Days
-            </span>
-          </div><!-- /.info-box-content -->
-        </div><!-- /.info-box -->
-      </div><!-- /.col -->
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="info-box bg-yellow">
-          <span class="info-box-icon info-box-faIcon"><i class="fa fa-amazon"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">Inventory</span>
-            <span class="info-box-number">5,200</span>
-            <div class="progress">
-              <div class="progress-bar" style="width: 50%"></div>
+          </div>
+          <div class="container-fluid" style="height:340px;margin-top:20px;padding:0px;" ng-if="data.activeTab==0">
+            <div class="container-fluid" style="padding-left:0px;">
+              <label class="text-muted">Messages</label>
             </div>
-            <span class="progress-description">
-              50% Increase in 30 Days
-            </span>
-          </div><!-- /.info-box-content -->
-        </div><!-- /.info-box -->
-      </div><!-- /.col -->
-
-      <div class="row">
-        <div class="col-md-5 col-md-offset-1">
-          <canvas id="line" class="chart chart-line" chart-data="data"
-            chart-labels="labels" chart-legend="true" chart-series="series"
-            chart-click="onClick" >
-          </canvas>
+            <div class="container" style="width:auto;font-size:15px;padding-left:0px;">
+              <div class="container-fluid" style="border:1px solid #a6abb2;margin-bottom:10px height:40px;cursor:pointer;margin-top:10px;" ng-repeat=" y in templates  track by $index" ng-click="display($index)">
+                <div class="row">
+                  <div class="container-fluid">
+                    <span>{{y.msg}}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-6">
-          <canvas id="doughnut" class="chart chart-doughnut"
-            chart-data="data2" chart-labels="labels2">
-          </canvas>
+        <div class="container-fluid" ng-if="data.activeTab==1">
+          <div class="container-fluid" style="margin-top:0px;">
+            <div class="container-fluid" style="margin-bottom:0px;padding:0px;">
+              <div class- "container-fluid" style="margin-top:20px">
+                <button type="button" class="btn btn-primary">{{names[data.xInView].chattime}}</button> <span>Chat Started</span>
+              </div>
+              <div class- "container-fluid" style="margin-top:20px;margin-bottom:20px;">
+                <button type="button" class="btn btn-primary">{{names[data.xInView].chattime}}</button> <span>Visitor navigated to <a href="coic.co.in">coic.co.in</a></span>
+              </div>
+              <div class- "container-fluid" style="margin-top:0px;margin-bottom:95px;">
+                <i class="fa fa-angle-right" aria-hidden="true"></i> <span>https://coic.co.in/</span>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div class="container-fluid" ng-if="data.activeTab==2">
+          <div class="container-fluid">
+            <div class="container-fluid" style="margin-top:20px;">
+              <textarea name="name" rows="8" cols="20" placeholder="write here something......."></textarea>
+            </div>
+            <div class="container-fluid" style="margin-top:20px;margin-bottom:20px;">
+              <button type="button" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+        <!-- side bar part -->
+       </div>
+      <!-- middle part -->
+       <div class="col-md-7" style="padding:0px;">
+        <div class="container-fluid" style="padding-right:0px;">
+          <div style="min-height:80vh;margin-top:0px;padding:0px;border-left: 1px solid #eeeeee;" class="container-fluid">
+            <div class="container-fluid" style="padding:0px;border-bottom:1px solid #eeeeee;height:60px;">
+            <div class="container-fluid" style="font-size:25px">
+              <label class="text-muted">{{names[data.xInView].name}}</label>
+            </div>
+          </div>
+            <div class="container-fluid" style="margin-left:10px;margin-right:10px">
+              <div class="row" style="padding:0px;" ng-repeat="message in names[data.xInView].messages">
+                <div style="float:{{message.sentByMe ? 'right':'left'}};background-color:#eeeeee;padding:10px;margin:8px;border-radius:{{message.sentByMe ? '20px 0px 20px 20px':'0px 20px 20px 20px'}};">
+                  <p ng-if="message.msg != '' || message.msg != undefined">{{message.msg}}</p>
+                   <img ng-if="message.img" ng-src="{{message.img}}" >
+                   <video ng-if="message.videoUrl" ng-src="{{message.videoUrl}}" controls></video>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid" style="padding:;border-top:30px;background-color:#eeeeee">
+            <div class="row" style="margin:0px;background-color:#e1e5e8;margin-top:40px;margin-bottom:60px;">
+              <div class="col-md-11" style="padding:0px;">
+                <input type="text" class="form-control" ng-model="msgText" placeholder="Message" style="border-radius:0px;"></div>
+              <div class="col-md-1" style="margin-top:10px;"><i class="fa fa-paper-plane-o" ng-click="send()" style="cursor:pointer"></i></div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
-
-      <div class="col-lg-2 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-aqua">
-          <div class="inner">
-            <h3>150</h3>
-            <p>New Orders</p>
-          </div>
-          <div class="icon">
-            <i class="fa fa-shopping-cart"></i>
-          </div>
-          <a href="#" class="small-box-footer">
-            More info <i class="fa fa-arrow-circle-right"></i>
-          </a>
-        </div>
-      </div><!-- ./col -->
-      <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-green">
-          <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
-            <p>Bounce Rate</p>
-          </div>
-          <div class="icon">
-            <i class="fa fa-bar-chart"></i>
-          </div>
-          <a href="#" class="small-box-footer">
-            More info <i class="fa fa-arrow-circle-right"></i>
-          </a>
-        </div>
-      </div><!-- ./col -->
-      <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-yellow">
-          <div class="inner">
-            <h3>44</h3>
-            <p>User Registrations</p>
-          </div>
-          <div class="icon">
-            <i class="fa fa-user-plus"></i>
-          </div>
-          <a href="#" class="small-box-footer">
-            More info <i class="fa fa-arrow-circle-right"></i>
-          </a>
-        </div>
-      </div><!-- ./col -->
-      <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-red">
-          <div class="inner">
-            <h3>65</h3>
-            <p>Unique Visitors</p>
-          </div>
-          <div class="icon">
-            <i class="fa fa-pie-chart"></i>
-          </div>
-          <a href="#" class="small-box-footer">
-            More info <i class="fa fa-arrow-circle-right"></i>
-          </a>
-        </div>
-      </div><!-- ./col -->
-
-
-
-
-
-
-      <!-- <div class="col-md-3">
-        <div class="box box-widget widget-user-2">
-          <div class="widget-user-header bg-yellow">
-            <div class="widget-user-image">
-              <img class="img-circle" src="{{MEDIA_URL}}{{user.profile.displayPicture}}" alt="User Avatar">
+      <!-- right side part -->
+       <div class="col-md-2" style="padding:0px;">
+         <div class="container-fluid" style="background-color:var(--themeMain);color:white;">
+          <div class="row" style="margin-top:10px;margin-bottom:10px;">
+            <div class="col-md-9">
+              <span>INCOMING</span>
             </div>
-            <h3 class="widget-user-username">Nadia Carmichael</h3>
-            <h5 class="widget-user-desc">Lead Developer</h5>
-          </div>
-          <div class="box-footer no-padding">
-            <ul class="nav nav-stacked">
-              <li><a href="#">Projects <span class="pull-right badge bg-blue">31</span></a></li>
-              <li><a href="#">Tasks <span class="pull-right badge bg-aqua">5</span></a></li>
-              <li><a href="#">Completed Projects <span class="pull-right badge bg-green">12</span></a></li>
-              <li><a href="#">Followers <span class="pull-right badge bg-red">842</span></a></li>
-            </ul>
+            <div class="col-md-2">
+              <button class="btn btn-default" style="background-color:var(--themeMain);color:white;">{{incomming.length}}</button>
+            </div>
           </div>
         </div>
-      </div> -->
-
-
-
-
+        <div class="container-fluid" style="background-color:var(--themeMain);color:white;border:1px solid #474444" ng-click="data.xInView = $index" ng-repeat="x in incomming">
+          <div class="row" style="margin-top:10px;margin-bottom:10px;cursor:pointer;hover:#031030">
+            <div class="col-md-9">
+              <span style="cursor:pointer">{{x.name}}</span><br>
+              <i class="fa fa-circle"  style="color:{{x.isOnline ? '#37a508':'#ff0022'}}"></i><span> coic</span>
+            </div>
+            <div class="col-md-2">
+              <i class="fa fa-eye-slash" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="background-color:var(--themeMain);color:white;min-height:90vh;padding:0px;">
+          <div class="container-fluid"style="border-bottom:1px solid #474444">
+          <div class="row" style="margin-top:10px;margin-bottom:10px;">
+            <div class="col-md-9">
+              <span>{{me.pk | getName}}</span><br>
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-default" style="background-color:var(--themeMain);color:white;">{{names.length}}</button>
+            </div>
+          </div>
+        </div>
+          <ul class="nav nav-sidebar-inverse" style="width:100%;">
+            <li ng-repeat="x in names" ng-click="data.xInView = $index" class="ripple ">
+              <a>
+                <div class="row" >
+                  <div class="container-fluid">
+                    <div class="col-md-7">
+                      <span style="cursor:pointer">{{x.name}}</span><br>
+                      <i class="fa fa-circle" aria-hidden="true" style="color:{{x.isOnline ? '#37a508':'#ff0022'}}"></i><span> coic</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-
-
 </div>
