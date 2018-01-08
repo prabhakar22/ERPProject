@@ -48,7 +48,7 @@ var cbpAnimatedHeader = (function() {
 			}
 		}
 		else {
-			classie.remove( header, 'navbar-shrink' );
+			// classie.remove( header, 'navbar-shrink' );
 			classie.remove( header, 'bg-blue' );
 			classie.remove( header, 'bg-red' );
 			classie.remove( header, 'bg-black' );
