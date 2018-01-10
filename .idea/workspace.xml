@@ -1,7 +1,629 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db2117c9-1597-4fdb-9a26-272687d1d32a" name="Default" comment="" />
+    <list default="true" id="db2117c9-1597-4fdb-9a26-272687d1d32a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.crossbar/config.json" afterPath="$PROJECT_DIR$/.crossbar/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.crossbar/key.priv" afterPath="$PROJECT_DIR$/.crossbar/key.priv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.crossbar/key.pub" afterPath="$PROJECT_DIR$/.crossbar/key.pub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.crossbar/node.pid" afterPath="$PROJECT_DIR$/.crossbar/node.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/admin.py" afterPath="$PROJECT_DIR$/API/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/middleware.py" afterPath="$PROJECT_DIR$/API/middleware.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/models.py" afterPath="$PROJECT_DIR$/API/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/permissions.py" afterPath="$PROJECT_DIR$/API/permissions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/tests.py" afterPath="$PROJECT_DIR$/API/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/urls.py" afterPath="$PROJECT_DIR$/API/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views.py" afterPath="$PROJECT_DIR$/API/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/admin.py" afterPath="$PROJECT_DIR$/ERP/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/apps.py" afterPath="$PROJECT_DIR$/ERP/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/fixtures/app.ERP.appSettingsField.json" afterPath="$PROJECT_DIR$/ERP/fixtures/app.ERP.appSettingsField.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/fixtures/app.ERP.application.json" afterPath="$PROJECT_DIR$/ERP/fixtures/app.ERP.application.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/fixtures/app.ERP.module.json" afterPath="$PROJECT_DIR$/ERP/fixtures/app.ERP.module.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/ERP/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/migrations/0002_auto_20170912_2011.py" afterPath="$PROJECT_DIR$/ERP/migrations/0002_auto_20170912_2011.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/models.py" afterPath="$PROJECT_DIR$/ERP/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/serializers.py" afterPath="$PROJECT_DIR$/ERP/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/js/module.admin.js" afterPath="$PROJECT_DIR$/ERP/static/js/module.admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/js/sudo.settings.js" afterPath="$PROJECT_DIR$/ERP/static/js/sudo.settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/js/sudo.settings.modulesAndApplications.js" afterPath="$PROJECT_DIR$/ERP/static/js/sudo.settings.modulesAndApplications.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.dash.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.menu.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/admin.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.configure.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.configure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.default.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.menu.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.form.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.item.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.settingsFields.html" afterPath="$PROJECT_DIR$/ERP/static/ngTemplates/app.ERP.settings.modulesAndApps.settingsFields.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/tests.py" afterPath="$PROJECT_DIR$/ERP/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/urls.py" afterPath="$PROJECT_DIR$/ERP/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ERP/views.py" afterPath="$PROJECT_DIR$/ERP/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/admin.py" afterPath="$PROJECT_DIR$/HR/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/fixtures/app.HR.User.json" afterPath="$PROJECT_DIR$/HR/fixtures/app.HR.User.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/HR/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/models.py" afterPath="$PROJECT_DIR$/HR/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/serializers.py" afterPath="$PROJECT_DIR$/HR/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/css/app.HR.css" afterPath="$PROJECT_DIR$/HR/static/css/app.HR.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/css/signin.css" afterPath="$PROJECT_DIR$/HR/static/css/signin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/js/sudo.manageUsers.js" afterPath="$PROJECT_DIR$/HR/static/js/sudo.manageUsers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.editMaster.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.editMaster.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.editPermissions.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.editPermissions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.newUser.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.newUser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.userProfile.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.form.userProfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.manage.users.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/app.HR.manage.users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableGraph.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableGraph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableIcon.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableIcon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableThumbnail.html" afterPath="$PROJECT_DIR$/HR/static/ngTemplates/empSearch/tableThumbnail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/account/password_reset.html" afterPath="$PROJECT_DIR$/HR/templates/account/password_reset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/documentVerify.external.getPassKey.html" afterPath="$PROJECT_DIR$/HR/templates/documentVerify.external.getPassKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/documentVerify.external.showDetails.html" afterPath="$PROJECT_DIR$/HR/templates/documentVerify.external.showDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/login.html" afterPath="$PROJECT_DIR$/HR/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/register.html" afterPath="$PROJECT_DIR$/HR/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/register.simple.html" afterPath="$PROJECT_DIR$/HR/templates/register.simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/socialaccount/connections.html" afterPath="$PROJECT_DIR$/HR/templates/socialaccount/connections.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/templates/socialaccount/signup.html" afterPath="$PROJECT_DIR$/HR/templates/socialaccount/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/tests.py" afterPath="$PROJECT_DIR$/HR/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/urls.py" afterPath="$PROJECT_DIR$/HR/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR/views.py" afterPath="$PROJECT_DIR$/HR/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/admin.py" afterPath="$PROJECT_DIR$/PIM/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/PIM/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/migrations/0002_auto_20170928_0724.py" afterPath="$PROJECT_DIR$/PIM/migrations/0002_auto_20170928_0724.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/migrations/0003_auto_20170928_0734.py" afterPath="$PROJECT_DIR$/PIM/migrations/0003_auto_20170928_0734.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/models.py" afterPath="$PROJECT_DIR$/PIM/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/serializers.py" afterPath="$PROJECT_DIR$/PIM/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/css/app.blog.css" afterPath="$PROJECT_DIR$/PIM/static/css/app.blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/css/app.calendar.css" afterPath="$PROJECT_DIR$/PIM/static/css/app.calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/js/app.blog.js" afterPath="$PROJECT_DIR$/PIM/static/js/app.blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/js/app.calendar.js" afterPath="$PROJECT_DIR$/PIM/static/js/app.calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/js/app.dashboard.js" afterPath="$PROJECT_DIR$/PIM/static/js/app.dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/js/app.notes.js" afterPath="$PROJECT_DIR$/PIM/static/js/app.notes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/js/module.home.js" afterPath="$PROJECT_DIR$/PIM/static/js/module.home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.blog.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.aside.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.aside.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.meeting.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.meeting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.reminder.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.reminder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.todo.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.form.todo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.items.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.calendar.items.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.dashboard.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.notes.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/app.home.notes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/static/ngTemplates/home.html" afterPath="$PROJECT_DIR$/PIM/static/ngTemplates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/tests.py" afterPath="$PROJECT_DIR$/PIM/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/urls.py" afterPath="$PROJECT_DIR$/PIM/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIM/views.py" afterPath="$PROJECT_DIR$/PIM/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/admin.py" afterPath="$PROJECT_DIR$/blogs/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/apps.py" afterPath="$PROJECT_DIR$/blogs/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blogs/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/models.py" afterPath="$PROJECT_DIR$/blogs/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/static/css/public.blogs.css" afterPath="$PROJECT_DIR$/blogs/static/css/public.blogs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/static/js/public.blogs.accounts.js" afterPath="$PROJECT_DIR$/blogs/static/js/public.blogs.accounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/static/js/public.blogs.donate.js" afterPath="$PROJECT_DIR$/blogs/static/js/public.blogs.donate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.accounts.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.accounts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.advertise.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.advertise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.article.view.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.article.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.browse.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.browse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.contactUs.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.contactUs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.copyright.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.copyright.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.donate.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.donate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.help.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.home.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.list.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.ngBase.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.ngBase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.privacy.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.saved.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.saved.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.search.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/templates/blogs.terms.html" afterPath="$PROJECT_DIR$/blogs/templates/blogs.terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/tests.py" afterPath="$PROJECT_DIR$/blogs/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/urls.py" afterPath="$PROJECT_DIR$/blogs/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/views.py" afterPath="$PROJECT_DIR$/blogs/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/admin.py" afterPath="$PROJECT_DIR$/businessManagement/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/apps.py" afterPath="$PROJECT_DIR$/businessManagement/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/models.py" afterPath="$PROJECT_DIR$/businessManagement/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/serializers.py" afterPath="$PROJECT_DIR$/businessManagement/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/static/js/module.businessManagement.js" afterPath="$PROJECT_DIR$/businessManagement/static/js/module.businessManagement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.dash.html" afterPath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.html" afterPath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.menu.html" afterPath="$PROJECT_DIR$/businessManagement/static/ngTemplates/businessManagement.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/tests.py" afterPath="$PROJECT_DIR$/businessManagement/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessManagement/views.py" afterPath="$PROJECT_DIR$/businessManagement/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/admin.py" afterPath="$PROJECT_DIR$/clientRelationships/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/apps.py" afterPath="$PROJECT_DIR$/clientRelationships/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0002_auto_20171028_1908.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0002_auto_20171028_1908.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0003_contract_duedate.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0003_contract_duedate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0004_auto_20171028_2017.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0004_auto_20171028_2017.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0005_auto_20171028_2300.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0005_auto_20171028_2300.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0006_auto_20171029_1008.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0006_auto_20171029_1008.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0007_deal_dueperiod.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0007_deal_dueperiod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/migrations/0008_contract_grandtotal.py" afterPath="$PROJECT_DIR$/clientRelationships/migrations/0008_contract_grandtotal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/models.py" afterPath="$PROJECT_DIR$/clientRelationships/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/serializers.py" afterPath="$PROJECT_DIR$/clientRelationships/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.contacts.js" afterPath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.contacts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.js" afterPath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.opportunities.js" afterPath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.opportunities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.relationships.js" afterPath="$PROJECT_DIR$/clientRelationships/static/js/app.clientRelationships.relationships.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.callBubble.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.callBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contact.explore.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contact.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contact.form.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contact.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contacts.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contacts.item.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.contacts.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.deal.item.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.deal.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.default.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.editDeal.form.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.editDeal.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.emailBubble.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.emailBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.meetingBubble.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.meetingBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.noteBubble.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.noteBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.created.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.created.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.explore.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.form.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.list.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.opportunities.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.quote.form.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.quote.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.quote.notification.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.quote.notification.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.item.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.list.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.manage.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.relationships.manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.todoBubble.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/app.clientRelationships.todoBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/clientsInputField.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/clientsInputField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/companyInputField.html" afterPath="$PROJECT_DIR$/clientRelationships/static/ngTemplates/companyInputField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/templates/app.clientRelationships.email.html" afterPath="$PROJECT_DIR$/clientRelationships/templates/app.clientRelationships.email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/tests.py" afterPath="$PROJECT_DIR$/clientRelationships/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/urls.py" afterPath="$PROJECT_DIR$/clientRelationships/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientRelationships/views.py" afterPath="$PROJECT_DIR$/clientRelationships/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/Makefile" afterPath="$PROJECT_DIR$/docs/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/make.bat" afterPath="$PROJECT_DIR$/docs/make.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/conf.py" afterPath="$PROJECT_DIR$/docs/source/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/index.rst" afterPath="$PROJECT_DIR$/docs/source/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/modules/PIM.rst" afterPath="$PROJECT_DIR$/docs/source/modules/PIM.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/modules/blogs.rst" afterPath="$PROJECT_DIR$/docs/source/modules/blogs.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/newAppGuide.rst" afterPath="$PROJECT_DIR$/docs/source/newAppGuide.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/admin.py" afterPath="$PROJECT_DIR$/ecommerce/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/apps.py" afterPath="$PROJECT_DIR$/ecommerce/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/ecommerce/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/models.py" afterPath="$PROJECT_DIR$/ecommerce/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/serializers.py" afterPath="$PROJECT_DIR$/ecommerce/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/css/app.ecommerce.css" afterPath="$PROJECT_DIR$/ecommerce/static/css/app.ecommerce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.configure.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.configure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.earnings.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.earnings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.listings.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.listings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.offerings.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.offerings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.orders.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.orders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.partners.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.partners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.account.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.checkout.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.checkout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.details.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.account.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.checkout.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.checkout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.details.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.home.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.list.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.main.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.food.main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.home.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.list.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.main.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.public.main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.register.partners.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.register.partners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.support.js" afterPath="$PROJECT_DIR$/ecommerce/static/js/app.ecommerce.support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.list.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.cart.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.default.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.menu.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.orders.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.orders.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.orders.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.support.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.account.support.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.aside.rentOut.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.aside.rentOut.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.checkout.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.checkout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.details.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.account.settings.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.account.settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.checkout.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.checkout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.header.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.home.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.list.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.food.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.footer.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.header.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.home.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.list.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.pages.about.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.pages.about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.pages.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.pages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.configure.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.configure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.default.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.earnings.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.earnings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.choiceLabel.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.choiceLabel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.choiceOption.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.choiceOption.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.field.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.field.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.genericProduct.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.genericProduct.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.genericType.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.genericType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.listing.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.listing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.offerBanner.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.offerBanner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.offering.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.form.offering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.listings.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.listings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.listings.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.listings.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.modal.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.offerings.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.offerings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.offerings.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.offerings.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.orders.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.orders.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.orders.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.partners.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.partners.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.partners.item.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.partners.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.support.html" afterPath="$PROJECT_DIR$/ecommerce/static/ngTemplates/app.ecommerce.vendor.support.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.email.html" afterPath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.email.order.html" afterPath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.email.order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.register.partner.html" afterPath="$PROJECT_DIR$/ecommerce/templates/app.ecommerce.register.partner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/templates/ngEcommerce.food.html" afterPath="$PROJECT_DIR$/ecommerce/templates/ngEcommerce.food.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/templates/ngEcommerce.rental.html" afterPath="$PROJECT_DIR$/ecommerce/templates/ngEcommerce.rental.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/tests.py" afterPath="$PROJECT_DIR$/ecommerce/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/urls.py" afterPath="$PROJECT_DIR$/ecommerce/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/views.py" afterPath="$PROJECT_DIR$/ecommerce/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/admin.py" afterPath="$PROJECT_DIR$/events/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/apps.py" afterPath="$PROJECT_DIR$/events/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/events/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/models.py" afterPath="$PROJECT_DIR$/events/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/templates/indexEvent.html" afterPath="$PROJECT_DIR$/events/templates/indexEvent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/templates/thankyou.html" afterPath="$PROJECT_DIR$/events/templates/thankyou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/tests.py" afterPath="$PROJECT_DIR$/events/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/urls.py" afterPath="$PROJECT_DIR$/events/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/views.py" afterPath="$PROJECT_DIR$/events/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/admin.py" afterPath="$PROJECT_DIR$/finance/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/apps.py" afterPath="$PROJECT_DIR$/finance/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/finance/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/models.py" afterPath="$PROJECT_DIR$/finance/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/serializers.py" afterPath="$PROJECT_DIR$/finance/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/js/app.finance.accounts.js" afterPath="$PROJECT_DIR$/finance/static/js/app.finance.accounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/js/app.finance.costCenter.js" afterPath="$PROJECT_DIR$/finance/static/js/app.finance.costCenter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/js/app.finance.expenses.js" afterPath="$PROJECT_DIR$/finance/static/js/app.finance.expenses.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/js/app.finance.inflow.js" afterPath="$PROJECT_DIR$/finance/static/js/app.finance.inflow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/js/app.finance.js" afterPath="$PROJECT_DIR$/finance/static/js/app.finance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.explore.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.form.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.item.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.accounts.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.aside.invoiceView.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.aside.invoiceView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.explore.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.item.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.project.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.costCenter.project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.default.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenseSheet.explore.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenseSheet.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenseSheet.item.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenseSheet.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenses.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.expenses.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.inflow.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.inflow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.transaction.item.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.transaction.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.transactionDetails.html" afterPath="$PROJECT_DIR$/finance/static/ngTemplates/app.finance.transactionDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/tests.py" afterPath="$PROJECT_DIR$/finance/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/urls.py" afterPath="$PROJECT_DIR$/finance/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finance/views.py" afterPath="$PROJECT_DIR$/finance/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/admin.py" afterPath="$PROJECT_DIR$/gitweb/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/apps.py" afterPath="$PROJECT_DIR$/gitweb/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/gitweb/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/models.py" afterPath="$PROJECT_DIR$/gitweb/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/serializers.py" afterPath="$PROJECT_DIR$/gitweb/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/css/app.GIT.css" afterPath="$PROJECT_DIR$/gitweb/static/css/app.GIT.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/js/app.GIT.groups.js" afterPath="$PROJECT_DIR$/gitweb/static/js/app.GIT.groups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/js/app.GIT.js" afterPath="$PROJECT_DIR$/gitweb/static/js/app.GIT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/js/app.GIT.manage.js" afterPath="$PROJECT_DIR$/gitweb/static/js/app.GIT.manage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/js/app.GIT.repos.js" afterPath="$PROJECT_DIR$/gitweb/static/js/app.GIT.repos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.aside.exploreNotification.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.aside.exploreNotification.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.default.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.form.groups.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.form.groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.form.repo.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.form.repo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.groups.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.groups.item.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.groups.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.manage.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.profile.item.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.profile.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.explore.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.item.html" afterPath="$PROJECT_DIR$/gitweb/static/ngTemplates/app.GIT.repos.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/tests.py" afterPath="$PROJECT_DIR$/gitweb/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/urls.py" afterPath="$PROJECT_DIR$/gitweb/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitweb/views.py" afterPath="$PROJECT_DIR$/gitweb/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/admin.py" afterPath="$PROJECT_DIR$/homepage/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/models.py" afterPath="$PROJECT_DIR$/homepage/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/css/agency.css" afterPath="$PROJECT_DIR$/homepage/static/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/images/portfolio/.comments/assist.jpg.xml" afterPath="$PROJECT_DIR$/homepage/static/images/portfolio/.comments/assist.jpg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/agency.js" afterPath="$PROJECT_DIR$/homepage/static/js/agency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/app.homepage.js" afterPath="$PROJECT_DIR$/homepage/static/js/app.homepage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/cbpAnimatedHeader.js" afterPath="$PROJECT_DIR$/homepage/static/js/cbpAnimatedHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/cbpAnimatedHeader.min.js" afterPath="$PROJECT_DIR$/homepage/static/js/cbpAnimatedHeader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/classie.js" afterPath="$PROJECT_DIR$/homepage/static/js/classie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/homepage/static/js/jquery.easing.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/blog.html" afterPath="$PROJECT_DIR$/homepage/templates/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/index.html" afterPath="$PROJECT_DIR$/homepage/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/loginpage.html" afterPath="$PROJECT_DIR$/homepage/templates/loginpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/registration.html" afterPath="$PROJECT_DIR$/homepage/templates/registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/userdetails.html" afterPath="$PROJECT_DIR$/homepage/templates/userdetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/tests.py" afterPath="$PROJECT_DIR$/homepage/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/views.py" afterPath="$PROJECT_DIR$/homepage/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/settings.py" afterPath="$PROJECT_DIR$/libreERP/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/templates/base.html" afterPath="$PROJECT_DIR$/libreERP/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/templates/blogsBase.html" afterPath="$PROJECT_DIR$/libreERP/templates/blogsBase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/templates/ngBase.html" afterPath="$PROJECT_DIR$/libreERP/templates/ngBase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/urls.py" afterPath="$PROJECT_DIR$/libreERP/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libreERP/wsgi.py" afterPath="$PROJECT_DIR$/libreERP/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/admin.py" afterPath="$PROJECT_DIR$/mail/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/mail/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/models.py" afterPath="$PROJECT_DIR$/mail/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/serializers.py" afterPath="$PROJECT_DIR$/mail/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/static/css/app.mail.css" afterPath="$PROJECT_DIR$/mail/static/css/app.mail.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/static/js/app.mail.js" afterPath="$PROJECT_DIR$/mail/static/js/app.mail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/static/ngTemplates/app.mail.html" afterPath="$PROJECT_DIR$/mail/static/ngTemplates/app.mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/static/ngTemplates/emailStrip.html" afterPath="$PROJECT_DIR$/mail/static/ngTemplates/emailStrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/tests.py" afterPath="$PROJECT_DIR$/mail/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/urls.py" afterPath="$PROJECT_DIR$/mail/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail/views.py" afterPath="$PROJECT_DIR$/mail/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/admin.py" afterPath="$PROJECT_DIR$/projectManagement/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/apps.py" afterPath="$PROJECT_DIR$/projectManagement/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/models.py" afterPath="$PROJECT_DIR$/projectManagement/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/static/js/module.projectManagement.js" afterPath="$PROJECT_DIR$/projectManagement/static/js/module.projectManagement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.dash.html" afterPath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.html" afterPath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.menu.html" afterPath="$PROJECT_DIR$/projectManagement/static/ngTemplates/projectManagement.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/tests.py" afterPath="$PROJECT_DIR$/projectManagement/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectManagement/views.py" afterPath="$PROJECT_DIR$/projectManagement/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/admin.py" afterPath="$PROJECT_DIR$/projects/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/apps.py" afterPath="$PROJECT_DIR$/projects/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/projects/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/models.py" afterPath="$PROJECT_DIR$/projects/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/serializers.py" afterPath="$PROJECT_DIR$/projects/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/js/app.projects.js" afterPath="$PROJECT_DIR$/projects/static/js/app.projects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/js/app.projects.new.js" afterPath="$PROJECT_DIR$/projects/static/js/app.projects.new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.default.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.explore.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.form.project.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.form.project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.item.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.menu.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.new.html" afterPath="$PROJECT_DIR$/projects/static/ngTemplates/app.projects.new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/tests.py" afterPath="$PROJECT_DIR$/projects/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/urls.py" afterPath="$PROJECT_DIR$/projects/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/views.py" afterPath="$PROJECT_DIR$/projects/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.pip" afterPath="$PROJECT_DIR$/requirements.pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/account_inactive.html" afterPath="$PROJECT_DIR$/setupScripts/account/account_inactive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/base.html" afterPath="$PROJECT_DIR$/setupScripts/account/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email.html" afterPath="$PROJECT_DIR$/setupScripts/account/email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_message.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_message.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_signup_message.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_signup_message.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_signup_subject.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_signup_subject.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_subject.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/email_confirmation_subject.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/password_reset_key_message.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/password_reset_key_message.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email/password_reset_key_subject.txt" afterPath="$PROJECT_DIR$/setupScripts/account/email/password_reset_key_subject.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email_confirm.html" afterPath="$PROJECT_DIR$/setupScripts/account/email_confirm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/email_confirmed.html" afterPath="$PROJECT_DIR$/setupScripts/account/email_confirmed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/login.html" afterPath="$PROJECT_DIR$/setupScripts/account/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/logout.html" afterPath="$PROJECT_DIR$/setupScripts/account/logout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/cannot_delete_primary_email.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/cannot_delete_primary_email.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/email_confirmation_sent.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/email_confirmation_sent.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/email_confirmed.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/email_confirmed.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/email_deleted.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/email_deleted.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/logged_in.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/logged_in.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/logged_out.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/logged_out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/password_changed.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/password_changed.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/password_set.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/password_set.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/primary_email_set.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/primary_email_set.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/messages/unverified_primary_email.txt" afterPath="$PROJECT_DIR$/setupScripts/account/messages/unverified_primary_email.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_change.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_change.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_reset.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_reset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_reset_done.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_reset_done.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_reset_from_key.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_reset_from_key.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_reset_from_key_done.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_reset_from_key_done.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/password_set.html" afterPath="$PROJECT_DIR$/setupScripts/account/password_set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/signup.html" afterPath="$PROJECT_DIR$/setupScripts/account/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/signup_closed.html" afterPath="$PROJECT_DIR$/setupScripts/account/signup_closed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/snippets/already_logged_in.html" afterPath="$PROJECT_DIR$/setupScripts/account/snippets/already_logged_in.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/verification_sent.html" afterPath="$PROJECT_DIR$/setupScripts/account/verification_sent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/account/verified_email_required.html" afterPath="$PROJECT_DIR$/setupScripts/account/verified_email_required.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/backup.base.py" afterPath="$PROJECT_DIR$/setupScripts/backup.base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/baseDB/auth.User.json" afterPath="$PROJECT_DIR$/setupScripts/baseDB/auth.User.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/gitolite.py" afterPath="$PROJECT_DIR$/setupScripts/gitolite.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setupScripts/requestTest.py" afterPath="$PROJECT_DIR$/setupScripts/requestTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sketch.py" afterPath="$PROJECT_DIR$/sketch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sketch.txt" afterPath="$PROJECT_DIR$/sketch.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/admin.py" afterPath="$PROJECT_DIR$/social/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/social/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/models.py" afterPath="$PROJECT_DIR$/social/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/serializers.py" afterPath="$PROJECT_DIR$/social/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/css/app.social.css" afterPath="$PROJECT_DIR$/social/static/css/app.social.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/js/app.social.js" afterPath="$PROJECT_DIR$/social/static/js/app.social.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.aside.album.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.aside.album.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.aside.post.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.aside.post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.draggablePhoto.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.draggablePhoto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.album.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.album.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.picture.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.picture.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.post.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.profile.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.form.profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.profile.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/app.social.profile.infoCol.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/app.social.profile.infoCol.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/commentBubble.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/commentBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/static/ngTemplates/postBubble.html" afterPath="$PROJECT_DIR$/social/static/ngTemplates/postBubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/tests.py" afterPath="$PROJECT_DIR$/social/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/urls.py" afterPath="$PROJECT_DIR$/social/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social/views.py" afterPath="$PROJECT_DIR$/social/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/angular-aside.min.css" afterPath="$PROJECT_DIR$/static_shared/css/angular-aside.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/angular-chart.min.css" afterPath="$PROJECT_DIR$/static_shared/css/angular-chart.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/angular-ui-switch.min.css" afterPath="$PROJECT_DIR$/static_shared/css/angular-ui-switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/anim-in-out.css" afterPath="$PROJECT_DIR$/static_shared/css/anim-in-out.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/animate.css" afterPath="$PROJECT_DIR$/static_shared/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/bootstrap.darky.min.css" afterPath="$PROJECT_DIR$/static_shared/css/bootstrap.darky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static_shared/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/bootstrap.paper.min.css" afterPath="$PROJECT_DIR$/static_shared/css/bootstrap.paper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/custom/base.css" afterPath="$PROJECT_DIR$/static_shared/css/custom/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/custom/calendar.css" afterPath="$PROJECT_DIR$/static_shared/css/custom/calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/custom/navbarControls.css" afterPath="$PROJECT_DIR$/static_shared/css/custom/navbarControls.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/datetimepicker.css" afterPath="$PROJECT_DIR$/static_shared/css/datetimepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/font-awesome.css" afterPath="$PROJECT_DIR$/static_shared/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/static_shared/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/foundation-icons.css" afterPath="$PROJECT_DIR$/static_shared/css/foundation-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/ng-tags-input.min.css" afterPath="$PROJECT_DIR$/static_shared/css/ng-tags-input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/octicons.css" afterPath="$PROJECT_DIR$/static_shared/css/octicons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/prism.css" afterPath="$PROJECT_DIR$/static_shared/css/prism.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/css/rzslider.min.css" afterPath="$PROJECT_DIR$/static_shared/css/rzslider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/static_shared/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/fonts/foundation-icons.svg" afterPath="$PROJECT_DIR$/static_shared/fonts/foundation-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static_shared/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/fonts/octicons.svg" afterPath="$PROJECT_DIR$/static_shared/fonts/octicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/fonts/preview.html" afterPath="$PROJECT_DIR$/static_shared/fonts/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/images/.comments/documentVerifyBackground.jpg.xml" afterPath="$PROJECT_DIR$/static_shared/images/.comments/documentVerifyBackground.jpg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/images/cioc_icon.svg" afterPath="$PROJECT_DIR$/static_shared/images/cioc_icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/Chart.min.js" afterPath="$PROJECT_DIR$/static_shared/js/Chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-animate.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-aside.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-aside.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-bootstrap-confirm.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-bootstrap-confirm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-bootstrap-confirm.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-bootstrap-confirm.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-chart.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-google-maps.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-google-maps.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-highlightjs.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-highlightjs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-sanitize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular.audio.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular.audio.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/angular.min.js" afterPath="$PROJECT_DIR$/static_shared/js/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/anim-in-out.js" afterPath="$PROJECT_DIR$/static_shared/js/anim-in-out.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/autobahn.min.js" afterPath="$PROJECT_DIR$/static_shared/js/autobahn.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static_shared/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/directive.calendar.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/directive.calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/directive.table.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/directive.table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/directives.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/directives.native.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/directives.native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/filters.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/nativeJS.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/nativeJS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/ngLibreERP.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/ngLibreERP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/services.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/custom/wampProcessors.js" afterPath="$PROJECT_DIR$/static_shared/js/custom/wampProcessors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/datetimepicker.js" afterPath="$PROJECT_DIR$/static_shared/js/datetimepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/fabric.min.js" afterPath="$PROJECT_DIR$/static_shared/js/fabric.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/highlight.min.js" afterPath="$PROJECT_DIR$/static_shared/js/highlight.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/static_shared/js/jquery-2.1.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/jquery.cookie-1.4.1.min.js" afterPath="$PROJECT_DIR$/static_shared/js/jquery.cookie-1.4.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/langs/readme.md" afterPath="$PROJECT_DIR$/static_shared/js/langs/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/lodash.js" afterPath="$PROJECT_DIR$/static_shared/js/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/moment.js" afterPath="$PROJECT_DIR$/static_shared/js/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/ng-tags-input.min.js" afterPath="$PROJECT_DIR$/static_shared/js/ng-tags-input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/ng-tinymce.js" afterPath="$PROJECT_DIR$/static_shared/js/ng-tinymce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/ngDraggable.js" afterPath="$PROJECT_DIR$/static_shared/js/ngDraggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/plugins/codesample/css/prism.css" afterPath="$PROJECT_DIR$/static_shared/js/plugins/codesample/css/prism.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/static_shared/js/plugins/example/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/static_shared/js/plugins/table/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/static_shared/js/plugins/visualblocks/css/visualblocks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/prism.js" afterPath="$PROJECT_DIR$/static_shared/js/prism.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/rzslider.min.js" afterPath="$PROJECT_DIR$/static_shared/js/rzslider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/static_shared/js/skins/lightgray/content.inline.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/static_shared/js/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/static_shared/js/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.Bar.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.Bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.Core.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.Core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.Doughnut.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.Doughnut.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.Line.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.Line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.PolarArea.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.PolarArea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/src/Chart.Radar.js" afterPath="$PROJECT_DIR$/static_shared/js/src/Chart.Radar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/tinymce.min.js" afterPath="$PROJECT_DIR$/static_shared/js/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/js/ui-bootstrap-tpls-0.14.3.min.js" afterPath="$PROJECT_DIR$/static_shared/js/ui-bootstrap-tpls-0.14.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/about.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/breadcrumb.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/breadcrumb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/calendar.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/chatWindow.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/chatWindow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/footer.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericAppBase.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericAppBase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericForm.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericMenu.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/genericSearch.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/genericSearch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/genericSearchList.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/genericSearchList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/tableDefault.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/tableDefault.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/tableRow.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/genericTable/tableRow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/header.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/inputWithFile.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/inputWithFile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/mediaInputField.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/mediaInputField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/messageStrip.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/messageStrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/notificationStrip.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/notificationStrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/settings.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/sideMenu.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/sideMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/tabsStrip.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/tabsStrip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/userInputField.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/userInputField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/usersInputField.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/usersInputField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_shared/ngTemplates/wizard.html" afterPath="$PROJECT_DIR$/static_shared/ngTemplates/wizard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/admin.py" afterPath="$PROJECT_DIR$/taskBoard/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/apps.py" afterPath="$PROJECT_DIR$/taskBoard/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/taskBoard/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/models.py" afterPath="$PROJECT_DIR$/taskBoard/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/serializers.py" afterPath="$PROJECT_DIR$/taskBoard/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/css/app.taskBoard.css" afterPath="$PROJECT_DIR$/taskBoard/static/css/app.taskBoard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/js/app.taskBoard.js" afterPath="$PROJECT_DIR$/taskBoard/static/js/app.taskBoard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.createTask.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.createTask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.default.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.explore.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.item.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.menu.html" afterPath="$PROJECT_DIR$/taskBoard/static/ngTemplates/app.taskBoard.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/tests.py" afterPath="$PROJECT_DIR$/taskBoard/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/urls.py" afterPath="$PROJECT_DIR$/taskBoard/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskBoard/views.py" afterPath="$PROJECT_DIR$/taskBoard/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/admin.py" afterPath="$PROJECT_DIR$/tools/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/apps.py" afterPath="$PROJECT_DIR$/tools/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/tools/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/models.py" afterPath="$PROJECT_DIR$/tools/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/serializers.py" afterPath="$PROJECT_DIR$/tools/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/js/app.tools.NLP.js" afterPath="$PROJECT_DIR$/tools/static/js/app.tools.NLP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/js/app.tools.OCR.js" afterPath="$PROJECT_DIR$/tools/static/js/app.tools.OCR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/js/app.tools.apiAccounts.js" afterPath="$PROJECT_DIR$/tools/static/js/app.tools.apiAccounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/js/app.tools.fileCache.js" afterPath="$PROJECT_DIR$/tools/static/js/app.tools.fileCache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/js/app.tools.js" afterPath="$PROJECT_DIR$/tools/static/js/app.tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.NLP.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.NLP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.explore.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.item.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.apiAccounts.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.dash.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.default.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.fileCache.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.fileCache.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.fileCache.item.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.fileCache.item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.apiAccounts.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.apiAccounts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.fileCache.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.fileCache.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.fileCache.new.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.fileCache.new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.usage.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.form.usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.menu.html" afterPath="$PROJECT_DIR$/tools/static/ngTemplates/app.tools.menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/tests.py" afterPath="$PROJECT_DIR$/tools/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/urls.py" afterPath="$PROJECT_DIR$/tools/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/views.py" afterPath="$PROJECT_DIR$/tools/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/admin.py" afterPath="$PROJECT_DIR$/virtualWorkforce/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/apps.py" afterPath="$PROJECT_DIR$/virtualWorkforce/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/virtualWorkforce/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/models.py" afterPath="$PROJECT_DIR$/virtualWorkforce/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/serializers.py" afterPath="$PROJECT_DIR$/virtualWorkforce/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/css/app.virtualWorkforce.css" afterPath="$PROJECT_DIR$/virtualWorkforce/static/css/app.virtualWorkforce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.configure.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.configure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.controlRoom.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.controlRoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.environments.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.environments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.processes.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.processes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.queues.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.queues.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.releases.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.releases.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.reports.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.reports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.robots.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.robots.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.schedules.js" afterPath="$PROJECT_DIR$/virtualWorkforce/static/js/app.virtualWorkforce.schedules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.configure.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.configure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.controlRoom.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.controlRoom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.controlRoom.processDrag.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.controlRoom.processDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.default.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.environments.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.environments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.processes.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.processes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.queues.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.queues.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.releases.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.releases.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.reports.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.reports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.robots.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.robots.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.schedules.html" afterPath="$PROJECT_DIR$/virtualWorkforce/static/ngTemplates/app.virtualWorkforce.schedules.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/tests.py" afterPath="$PROJECT_DIR$/virtualWorkforce/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/urls.py" afterPath="$PROJECT_DIR$/virtualWorkforce/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualWorkforce/views.py" afterPath="$PROJECT_DIR$/virtualWorkforce/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +631,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homepage/templates/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -18,11 +660,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1260" />
-    <option name="height" value="640" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -40,28 +680,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="libreERP-main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="libreERP-main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libreERP-main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="libreERP-main" type="462c0819:PsiDirectoryNode" />
-              <item name="ERP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libreERP-main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="libreERP-main" type="462c0819:PsiDirectoryNode" />
-              <item name="ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libreERP-main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -123,28 +789,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1260" height="640" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="741" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,5 +828,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/homepage/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
