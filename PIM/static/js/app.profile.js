@@ -4,16 +4,13 @@ app.controller("controller.home.profile", function($scope , $state , $users ,  $
 
   $scope.me = $users.get("mySelf");
 
-  console.log('aaaaaaaaaaaaaaaaaaaaaa', $scope.me.pk);
   $http({
     method: 'GET',
     url: '/api/HR/payroll/?user=' + $scope.me.pk
   }).
   then(function(response) {
     $scope.payroll = response.data[0];
-    console.log($scope.payroll);
   })
-  console.log('((((((((((((((()))))))))))))))', $scope.me.pk);
   $http({
     method: 'GET',
     url: '/api/HR/designation/?user=' + $scope.me.pk
